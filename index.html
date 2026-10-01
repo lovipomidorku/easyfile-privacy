@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasyFile Privacy Policy</title>
+<meta name="description" content="How the EasyFile Chrome extension handles your clipboard, downloads and settings.">
+<link rel="icon" href="logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.svg" alt="">
+    <h1>EasyFile Privacy Policy</h1>
+  </header>
+
+  <p class="meta"><span>Effective October 1, 2026</span> <a href="ru/" hreflang="ru" lang="ru">Русский</a></p>
+
+  <p>EasyFile is a Chrome extension. When you click a file upload button on a website, it shows a small panel next to the button with files you have copied and files you have recently downloaded, so you can attach one in a click. All of this happens on your computer.</p>
+
+  <div class="summary">
+    <ul>
+      <li>EasyFile does not collect, store or send anywhere your files, your clipboard or your browsing data.</li>
+      <li>It has no servers, analytics, ads or tracking, and it makes no network requests.</li>
+      <li>The only thing it saves is its own settings, on your computer.</li>
+    </ul>
+  </div>
+
+  <h2>What EasyFile reads and why</h2>
+  <p><strong>Clipboard.</strong> When you click an upload button, or press ⌘V / Ctrl+V inside the panel, EasyFile reads the clipboard to find files and images you have copied and shows them in the panel. Copied text is ignored. The clipboard is not read at any other time and is not watched in the background.</p>
+  <p><strong>Downloads.</strong> When the panel opens, EasyFile looks at Chrome’s list of your recent downloads: file names, where they are on disk and when they were downloaded. If you allow access to file URLs, it also reads those files to show previews and to attach the one you choose. EasyFile never starts, changes or deletes downloads.</p>
+  <p><strong>Websites.</strong> EasyFile runs on websites only to notice clicks on file upload buttons and show its panel. It does not read the content of the pages you visit and does not change them, apart from showing the panel and putting the file you choose into the upload field.</p>
+  <p><strong>Files you choose.</strong> A website receives a file only when you pick it in the panel, just as if you had picked it in the system file dialog. What the website then does with the file is covered by that website’s own privacy policy.</p>
+  <p>Files, clipboard contents and the list of downloads are held in memory only while the panel is open and are discarded when it closes.</p>
+
+  <h2>What EasyFile stores</h2>
+  <p>Only its settings, in Chrome’s local extension storage on your computer: whether EasyFile is on, the sites where you turned it off, the theme and how many recent downloads to show. While you set up file access, it also keeps a timestamp so it can reopen its page after Chrome restarts the extension; the timestamp is removed when setup finishes.</p>
+  <p>Settings are not synced to your Google account. Removing the extension deletes them.</p>
+
+  <h2>Sharing</h2>
+  <p>EasyFile does not sell, transfer or share any user data with anyone, and it never sends anything off your computer by itself.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Read data you copy and paste</strong> (<code>clipboardRead</code>): to show copied files and images in the panel.</li>
+    <li><strong>Manage your downloads</strong> (<code>downloads</code>): to list your recent downloads in the panel.</li>
+    <li><strong>Read and change all your data on all websites</strong> (<code>&lt;all_urls&gt;</code>): to show the panel next to upload buttons on any website.</li>
+    <li><code>scripting</code> and <code>storage</code>: to turn EasyFile on or off for particular sites and to save your settings.</li>
+  </ul>
+
+  <h2>Chrome Web Store Limited Use</h2>
+  <p>The use of information received from Chrome APIs adheres to the <a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome Web Store User Data Policy</a>, including the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Limited Use</a> requirements.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be published on this page with a new effective date. If EasyFile ever starts handling data differently, it will tell you inside the extension first.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/lovipomidorku/easyfile-privacy/issues">open an issue on GitHub</a>.</p>
+
+  <footer>EasyFile — Upload Files from Clipboard &amp; Recent Downloads</footer>
+</main>
+</body>
+</html>
