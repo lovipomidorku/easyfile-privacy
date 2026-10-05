@@ -4,5 +4,6 @@ Privacy policy of the EasyFile Chrome extension (Upload Files from Clipboard & R
 
 - English: https://lovipomidorku.github.io/easyfile-privacy/
 - Русский: https://lovipomidorku.github.io/easyfile-privacy/ru/
+- Chrome Web Store: https://chromewebstore.google.com/detail/cekbehjhafikbbmjmngmeopfimndpelh
 
 Questions about the policy: open an issue in this repository.

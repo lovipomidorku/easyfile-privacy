@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+Icon[]
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Редакторы
+.idea/
+.vscode/
+*.swp
+*~
